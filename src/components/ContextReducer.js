@@ -22,6 +22,7 @@ const reducer = (state, action) => {
                     arr[index] = { ...food, qty: parseInt(action.qty) + parseInt(food.qty), price: action.price + food.price }
                     return arr
                 }
+                return arr
             })
             return arr
 
