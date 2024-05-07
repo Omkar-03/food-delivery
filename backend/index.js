@@ -5,7 +5,7 @@ const app = express()
 const port = 5000
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://hungryhubapp.netlify.app/");
+  res.setHeader("Access-Control-Allow-Origin", "https://main--hungryhubapp.netlify.app/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
